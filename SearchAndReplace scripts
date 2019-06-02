@@ -1,0 +1,63 @@
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+Search:
+
+Replace:
+
+
+Search:
+(Sunday.+\r\n\t.+MUST get done:\r\n)
+Replace:
+
+Search:
+
+Replace:
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSunday
+
+Search:
+
+Replace:
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSaturday
+
+Search:
+(Sunday.+\r\n\t.+MUST get done:\r\n)
+Replace:
+\1\t\tTake morning drugs\r\n\t\tTake evening drugs\r\n
