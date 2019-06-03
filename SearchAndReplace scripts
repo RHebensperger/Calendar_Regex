@@ -2,42 +2,51 @@ Search:
 
 Replace:
 
-Search:
-
-Replace:
 
 Search:
 
 Replace:
 
-Search:
-
-Replace:
 
 Search:
 
 Replace:
 
-Search:
-
-Replace:
 
 Search:
 
 Replace:
 
-Search:
-
-Replace:
 
 Search:
 
 Replace:
 
+
 Search:
 
 Replace:
 
+
+Search:
+
+Replace:
+
+
+Search:
+Other things to do:\r\n
+Replace:
+Other things to do:\r\n\r\n
+
+Search:
+
+Replace:
+
+
+Search:
+Other things to do:\r\n
+Replace:
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nWednesday
 Search:
 
 Replace:
@@ -61,3 +70,31 @@ Search:
 (Sunday.+\r\n\t.+MUST get done:\r\n)
 Replace:
 \1\t\tTake morning drugs\r\n\t\tTake evening drugs\r\n
+
+
+
+
+
+
+Search:
+(Sunday.+\r\n\t.+MUST get done:\r\n)
+(Saturday.+\r\n\t.+MUST get done:\r\n)
+(Friday.+\r\n\t.+MUST get done:\r\n)
+(Thursday.+\r\n\t.+MUST get done:\r\n)
+(Wednesday.+\r\n\t.+MUST get done:\r\n)
+(Tuesday.+\r\n\t.+MUST get done:\r\n)
+(Tuesday.+MUST get done:\r\n)
+
+
+
+
+
+Replace:
+\1\t\tTake morning drugs\r\n\t\tTake evening drugs\r\n
+\1\t\tTake morning drugs\r\n\t\tTake out recycling\r\n\t\tTake evening drugs\r\n
+\1\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\n
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSunday
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSaturday
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nFriday
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nThursday
+2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nWednesday
