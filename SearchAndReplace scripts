@@ -14,9 +14,9 @@ Replace:
 
 
 Search:
-
+(Monday.+\r\n\t.+MUST get done:\r\n)
 Replace:
-
+\1\t\tTake morning drugs\r\nSubmit a job application\r\nSort papers\r\nVirtual lab
 
 Search:
 
