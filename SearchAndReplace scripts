@@ -67,9 +67,28 @@ Replace:
 2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSaturday
 
 Search:
-(Sunday.+\r\n\t.+MUST get done:\r\n)
+(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-\1\t\tTake morning drugs\r\n\t\tTake evening drugs\r\n
+\1\tTake morning drugs\r\n\t9:00: Worship @ St. Luke\r\n\t10 - 11:30 a.m.: SLSHY\r\n\t10:30 a.m.: Up For Discussion/Worship\r\n\t\tChoir anthem:\r\n\t5:30 p.m.: Swim practice\r\n\tTake out recycling\r\n\tTake evening drugs\r\n
+
+
+(Saturday.+\r\n.+LIKE to get done:\r\n)
+(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
+\1\2\3\4\tDownload solar power production data\r\n\tUpload glucometer data\r\n
+
+(Saturday.+\r\n.+MUST get done:\r\n)
+\1\tTake morning drugs\r\n
+
+
+(Friday.+\r\n.+MUST get done:\r\n)
+\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\t5:30 p.m.: Swim practice\r\n\tTake evening drugs\r\n\
+
+
+
+
+
+
+
 
 
 
@@ -77,13 +96,12 @@ Replace:
 
 
 Search:
-(Sunday.+\r\n\t.+MUST get done:\r\n)
-(Saturday.+\r\n\t.+MUST get done:\r\n)
-(Friday.+\r\n\t.+MUST get done:\r\n)
-(Thursday.+\r\n\t.+MUST get done:\r\n)
-(Wednesday.+\r\n\t.+MUST get done:\r\n)
-(Tuesday.+\r\n\t.+MUST get done:\r\n)
-(Tuesday.+MUST get done:\r\n)
+(Sunday.+\r\n.+MUST get done:\r\n)
+(Saturday.+\r\n.+MUST get done:\r\n)
+(Friday.+\r\n.+MUST get done:\r\n)
+(Thursday.+\r\n.+MUST get done:\r\n)
+(Wednesday.+\r\n.+MUST get done:\r\n)
+(Tuesday.+\r\n.+MUST get done:\r\n)
 
 
 
