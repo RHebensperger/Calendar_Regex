@@ -4,53 +4,53 @@
 Search:
 Other things to do:\r\n
 Replace:
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nWednesday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nWednesday
 Search:
 
 Replace:
 
 
 Search:
-(Sunday.+\r\n\t.+MUST get done:\r\n)
+(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
 
 Search:
 
 Replace:
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSunday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSunday
 
 Search:
 
 Replace:
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSaturday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSaturday
 
 
 Sunday
 Search:
 (Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-\1\tTake morning drugs\r\n\t9:00: Worship @ St. Luke\r\n\t10 - 11:30 a.m.: SLSHY\r\n\t10:30 a.m.: Up For Discussion/Worship\r\n\t\tChoir anthem:\r\n\t5:30 p.m.: Swim practice\r\n\tTake out recycling\r\n\tTake evening drugs\r\n
+\1Take morning drugs\r\n9:00: Worship @ St. Luke\r\n10 - 11:30 a.m.: SLSHY\r\n10:30 a.m.: Up For Discussion/Worship\r\nChoir anthem:\r\n5:30 p.m.: Swim practice\r\nTake out recycling\r\nTake evening drugs\r\n
 
 Saturday
 (Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
-\1\2\3\4\tDownload solar power production data\r\n\tUpload glucometer data\r\n
+\1\2\3\4Download solar power production data\r\nUpload glucometer data\r\n
 
 (Saturday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n
+\1Take morning drugs\r\n
 
 Friday
 (Friday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\t5:30 p.m.: Swim practice\r\n\tTake evening drugs\r\n\
+\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\n5:30 p.m.: Swim practice\r\nTake evening drugs\r\n\
 
 
 Thursday
 SHOULD
 (Thursday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\tWater plants\r\n
+\1\2\3Water plants\r\n
 
 MUST
 (Thursday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\tMake supper\r\n\t6:15 p.m.: Swim practice\r\n\tTake evening drugs\r\n
+\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\nMake supper\r\n6:15 p.m.: Swim practice\r\nTake evening drugs\r\n
 
 
 
@@ -58,11 +58,11 @@ MUST
 Wednesday
 SHOULD
 (Wednesday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\t3:30 p.m.: Group session\r\n
+\1\2\33:30 p.m.: Group session\r\n
 
 MUST
 (Wednesday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\tPrepare for Housecleaners:\r\n\tEmpty recycling\r\n\tEmpty compost\r\n\tHide mirror and razor\r\n\tWash dishes\r\n\tBring thermos for Emi's soup\r\n\t5:30 p.m.: MLC practice\r\n\t6:15 p.m.: Swim practice\r\n\t6:30 p.m.: Souper Supper\r\n\t7:30 p.m.: Schola rehearsal\r\n\tTake evening drugs\r\n
+\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\nPrepare for Housecleaners:\r\nEmpty recycling\r\nEmpty compost\r\nHide mirror and razor\r\nWash dishes\r\nBring thermos for Emi's soup\r\n5:30 p.m.: MLC practice\r\n6:15 p.m.: Swim practice\r\n6:30 p.m.: Souper Supper\r\n7:30 p.m.: Schola rehearsal\r\nTake evening drugs\r\n
 
 
 
@@ -70,17 +70,17 @@ MUST
 Tuesday
 MUST
 (Tuesday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\tMake supper\r\n\t5:30 p.m.: TMB practice\r\n\tTake evening drugs\r\n
+\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\nMake supper\r\n5:30 p.m.: TMB practice\r\nTake evening drugs\r\n
 
 
 Monday
 SHOULD
 (Monday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\tWater plants\r\n
+\1\2\3Water plants\r\n
 
 MUST
 (Monday.+\r\n.+MUST get done:\r\n)
-\1\tTake morning drugs\r\n\tVirtual lab\r\n\tApply for jobs\r\n\tSort papers\r\n\tMake grocery shopping list\r\n\tGrocery shopping\r\n\tMake supper\r\n\t4:45 p.m.: Flute lesson\r\n\t6:15 p.m.: Swim practice\r\n\tTake out trash & dog poop & old items in refrigerator\r\n\tTake evening drugs\r\n
+\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\nMake supper\r\n4:45 p.m.: Flute lesson\r\n6:15 p.m.: Swim practice\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
 
 
 
@@ -108,11 +108,11 @@ Search:
 
 
 Replace:
-\1\t\tTake morning drugs\r\n\t\tTake evening drugs\r\n
-\1\t\tTake morning drugs\r\n\t\tTake out recycling\r\n\t\tTake evening drugs\r\n
-\1\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\n
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSunday
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nSaturday
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nFriday
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nThursday
-2019\r\n\tThings that MUST get done:\r\n\tThings that SHOULD get done:\r\n\tThings I'd like to get done:\r\n\tOther things to do:\r\nWednesday
+\1Take morning drugs\r\nTake evening drugs\r\n
+\1Take morning drugs\r\nTake out recycling\r\nTake evening drugs\r\n
+\1Things that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\n
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSunday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSaturday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nFriday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nThursday
+2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nWednesday
