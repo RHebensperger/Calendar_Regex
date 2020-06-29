@@ -1,28 +1,68 @@
 
 
+FOR INSERTING WEEK HEADERS:
+Be sure to uncheck the ". matches newline" checkbox
 
 Search:
-Other things to do:\r\n
+	(Monday, )(January|February|March|April|May|June|July|August|September|October|November|December)( [0-9]+)(, [0-9]+)\r\n((.+\r\n){5})(^Sunday, )(January|February|March|April|May|June|July|August|September|October|November|December)( [0-9]+, 2020)
 Replace:
-2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nWednesday
+	\r\n\r\n\2\3 - \8\9\r\n\r\n\1\2\3\4\r\n\5\7\8\9
+
+
+
+
+By using an optional limited character class in the Sunday date that only includes the single digits 1-7 [1-7], that can be used to identify the times the month name should be included. Otherwise, if the date is a single digit of 8 or 9, or is a double digit, [8-31], the first month name can be used.
+
+
+Put a blank line between each day:
+Search:
+	(.+day)
+Replace:
+	\r\n\1
+
+
+Inserting tasks into each day:
+
+First, insert the priority subheaders under each day.
+Search pattern:
+	^(.+day.+2020)\r\n
+Replace pattern:
+	\1\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd LIKE to get done:\r\nOTHER things to do:\r\n
+
+
+
+
+
+
+
+Search:
+
+Replace:
+
+
+
 Search:
 
 Replace:
 
 
 Search:
-(Sunday.+\r\n.+MUST get done:\r\n)
+
 Replace:
+
+
 
 Search:
 
 Replace:
-2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSunday
+
+
+
 
 Search:
 
 Replace:
-2019\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd like to get done:\r\nOther things to do:\r\nSaturday
+
 
 
 Sunday
