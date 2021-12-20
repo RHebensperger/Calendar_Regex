@@ -73,8 +73,8 @@ Replace:
 \1Take morning drugs\r\n8:45: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\nTake out recycling\r\nTake evening drugs\r\n
 
 Saturday
-(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
-\1\2\3\4Download solar power production data\r\nUpload glucometer data\r\n
+(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
+\1\2\3\4\5Download solar power production data\r\nUpload glucometer data\r\n
 
 (Saturday.+\r\n.+MUST get done:\r\n)
 \1Take morning drugs\r\nTake evening drugs\r\n
