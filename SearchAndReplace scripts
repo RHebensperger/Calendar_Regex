@@ -81,7 +81,7 @@ Saturday
 
 Friday
 (Friday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n\
+\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
 Thursday
