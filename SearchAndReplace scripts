@@ -26,8 +26,9 @@ Inserting tasks into each day:
 First, insert the priority subheaders under each day.
 Search pattern:
 	^(.+day.+2021)\r\n
+	^(.+day.+2022)\r\n
 Replace pattern:
-	\1\r\nThings that MUST get done:\r\nThings that SHOULD get done:\r\nThings I'd LIKE to get done:\r\nOTHER things to do:\r\n
+	\1\r\nThings that MUST get done:\r\nONGOING Things to do:\r\nThings that SHOULD get done:\r\nThings I'd LIKE to get done:\r\nOTHER things to do:\r\n
 
 
 
