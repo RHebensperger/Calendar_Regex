@@ -81,13 +81,13 @@ Saturday
 
 Friday
 (Friday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nVirtual lab\r\nApply for jobs\r\nSort papers\r\n5:30 p.m.: Swim practice\r\nTake evening drugs\r\n\
+\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n\
 
 
 Thursday
 SHOULD
-(Thursday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3Water plants\r\n
+(Thursday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+\1\2\3\4Water plants\r\n
 
 MUST
 (Thursday.+\r\n.+MUST get done:\r\n)
@@ -98,8 +98,8 @@ MUST
 
 Wednesday
 SHOULD
-(Wednesday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3
+(Wednesday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+\1\2\3\4
 
 MUST
 (Wednesday.+\r\n.+MUST get done:\r\n)
@@ -116,8 +116,8 @@ MUST
 
 Monday
 SHOULD
-(Monday.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3Water plants\r\n
+(Monday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+\1\2\3\4Water plants\r\n
 
 MUST
 (Monday.+\r\n.+MUST get done:\r\n)
