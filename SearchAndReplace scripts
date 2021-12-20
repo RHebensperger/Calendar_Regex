@@ -91,7 +91,7 @@ SHOULD
 
 MUST
 (Thursday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+\1Take morning drugs\r\nSort papers\r\nCooking Great Course\r\nMake supper\r\nTake evening drugs\r\n
 
 
 
@@ -111,13 +111,13 @@ MUST
 Tuesday
 MUST
 (Tuesday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
 
 
 Monday
 SHOULD
 (Monday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\4Water plants\r\n
+\1\2\3\4Water indoor plants\r\n
 
 MUST
 (Monday.+\r\n.+MUST get done:\r\n)
