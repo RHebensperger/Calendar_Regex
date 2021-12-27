@@ -68,60 +68,81 @@ Replace:
 
 Sunday
 Search:
-(Sunday.+\r\n.+MUST get done:\r\n)
+	(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-\1Take morning drugs\r\n8:45 a.m.: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\nTake out recycling\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\n8:45 a.m.: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\nTake out recycling\r\nTake evening drugs\r\n
 
 Saturday
-(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
-\1\2\3\4\5Download solar power production data\r\nUpload glucometer data\r\n
+Search:
+	(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
 
-(Saturday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nTake evening drugs\r\n
+Replace:
+	\1\2\3\4\5Download solar power production data\r\nUpload glucometer data\r\n
+
+
+Search:
+	(Saturday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nTake evening drugs\r\n
 
 Friday
-(Friday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
+Search:
+	(Friday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
 Thursday
 SHOULD
-(Thursday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\4Water plants\r\n
+Search:
+	(Thursday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+Replace:
+	\1\2\3\4Water indoor plants\r\n
 
 MUST
-(Thursday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nCooking Great Course\r\nMake supper\r\nTake evening drugs\r\n
-
+Search:
+	(Thursday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nSort papers\r\nCooking Great Course\r\nMake supper\r\nTake evening drugs\r\n
 
 
 
 Wednesday
 SHOULD
-(Wednesday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\4
+Search:
+	(Wednesday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+Replace:
+	\1\2\3\4
 
 MUST
-(Wednesday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: Schola rehearsal\r\nTake evening drugs\r\n
+Search:
+	(Wednesday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: Schola rehearsal\r\nTake evening drugs\r\n
 
 
 
 
 Tuesday
 MUST
-(Tuesday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
+Search:
+	(Tuesday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
 
 
 Monday
 SHOULD
-(Monday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-\1\2\3\4Water indoor plants\r\n
+Search:
+	(Monday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
+Replace:
+	\1\2\3\4Water indoor plants\r\n
 
 MUST
-(Monday.+\r\n.+MUST get done:\r\n)
-\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\nMake supper\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
+Search:
+	(Monday.+\r\n.+MUST get done:\r\n)
+Replace:
+	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\nMake supper\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
 
 
 
