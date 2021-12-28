@@ -33,39 +33,6 @@ Replace pattern:
 
 
 
-
-
-
-Search:
-
-Replace:
-
-
-
-Search:
-
-Replace:
-
-
-Search:
-
-Replace:
-
-
-
-Search:
-
-Replace:
-
-
-
-
-Search:
-
-Replace:
-
-
-
 Sunday
 Search:
 	(Sunday.+\r\n.+MUST get done:\r\n)
@@ -106,7 +73,6 @@ Replace:
 	\1Take morning drugs\r\nSort papers\r\nCooking Great Course\r\nMake supper\r\nTake evening drugs\r\n
 
 
-
 Wednesday
 SHOULD
 Search:
@@ -119,7 +85,6 @@ Search:
 	(Wednesday.+\r\n.+MUST get done:\r\n)
 Replace:
 	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: Schola rehearsal\r\nTake evening drugs\r\n
-
 
 
 
@@ -149,7 +114,33 @@ Replace:
 
 
 
+Search:
 
+Replace:
+
+
+
+Search:
+
+Replace:
+
+
+Search:
+
+Replace:
+
+
+
+Search:
+
+Replace:
+
+
+
+
+Search:
+
+Replace:
 
 
 
@@ -162,8 +153,6 @@ Search:
 (Saturday.+\r\n.+MUST get done:\r\n)
 (Friday.+\r\n.+MUST get done:\r\n)
 (Thursday.+\r\n.+MUST get done:\r\n)
-
-
 
 
 
