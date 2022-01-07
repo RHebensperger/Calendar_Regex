@@ -94,6 +94,7 @@ Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
 	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
 Monday
@@ -102,6 +103,7 @@ Search:
 	(Monday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
 Replace:
 	\1\2\3\4Water indoor plants\r\n
+	\1\2\3\4Water plants\r\n
 
 MUST
 Search:
