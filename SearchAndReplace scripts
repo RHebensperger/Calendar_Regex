@@ -94,7 +94,7 @@ MUST
 Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
 	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
@@ -110,7 +110,7 @@ MUST
 Search:
 	(Monday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\nMake supper\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
 
 
 
