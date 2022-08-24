@@ -38,7 +38,7 @@ Sunday
 Search:
 	(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\n8:45 a.m.: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\nTake out recycling\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\n8:45 a.m.: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\n11:15 a.m.: Worship @ St. Luke\r\nTake out recycling\r\nTake evening drugs\r\n
 
 Saturday
 Search:
