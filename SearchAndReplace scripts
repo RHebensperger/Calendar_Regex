@@ -94,7 +94,7 @@ MUST
 Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\n7:30 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\n7:15 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
 	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
