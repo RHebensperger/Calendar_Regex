@@ -110,7 +110,7 @@ MUST
 Search:
 	(Monday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake out trash & dog poop & old items in refrigerator\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake out trash & old items in refrigerator\r\nTake evening drugs\r\n
 
 
 
