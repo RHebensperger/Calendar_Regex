@@ -71,7 +71,7 @@ MUST
 Search:
 	(Thursday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nCooking Great Course\r\nMake supper\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
 
 
 Wednesday
