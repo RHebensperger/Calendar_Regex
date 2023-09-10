@@ -38,14 +38,14 @@ Sunday
 Search:
 	(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\n8:45 a.m.: Worship @ St. Luke\r\nChoir anthem:\r\n10:30 a.m.: Up For Discussion\r\n11:15 a.m.: Worship @ St. Luke\r\nTake out recycling\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\n8 a.m.: Choir rehearsal\r\n8:30 a.m.: Worship @ St. John's\r\nChoir anthem:\r\n10:45 a.m.: Worship @ St. John's\r\nTake evening drugs\r\n
 
 Saturday
 Search:
 	(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
 
 Replace:
-	\1\2\3\4\5Download solar power production data\r\nUpload glucometer data\r\n
+	\1\2\3\4\5Upload glucometer data\r\n
 
 
 Search:
@@ -85,7 +85,7 @@ MUST
 Search:
 	(Wednesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\n7:30 p.m.: Schola rehearsal\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\n7 p.m.: St. John's Choir rehearsal\r\nTake out trash & old items in refrigerator\r\nTake out recycling\r\nTake evening drugs\r\n
 
 
 
@@ -94,7 +94,7 @@ MUST
 Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGrocery shopping\r\n7:15 p.m.: TCS rehearsal\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nTake evening drugs\r\n
 	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
 
 
@@ -110,7 +110,7 @@ MUST
 Search:
 	(Monday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake out trash & old items in refrigerator\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
 
 
 
