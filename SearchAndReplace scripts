@@ -57,7 +57,7 @@ Friday
 Search:
 	(Friday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\nTake evening drugs\r\n
 
 
 Thursday
@@ -71,7 +71,7 @@ MUST
 Search:
 	(Thursday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
 
 
 Wednesday
@@ -85,7 +85,7 @@ MUST
 Search:
 	(Wednesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\n7 p.m.: St. John's Choir rehearsal\r\nTake out trash & old items in refrigerator\r\nTake out recycling\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\n7 p.m.: St. John's Choir rehearsal\r\nTake out trash & old items in refrigerator\r\nTake out recycling\r\nTake evening drugs\r\n
 
 
 
@@ -94,8 +94,8 @@ MUST
 Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nTake evening drugs\r\n
-	\1Take morning drugs\r\nSort papers\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake grocery shopping list\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\nTake evening drugs\r\n
 
 
 Monday
@@ -110,7 +110,7 @@ MUST
 Search:
 	(Monday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1Take morning drugs\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+	\1Take morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
 
 
 
