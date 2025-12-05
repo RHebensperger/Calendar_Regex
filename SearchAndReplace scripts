@@ -28,7 +28,7 @@ Search pattern:
 	^(.+day.+2025)\r\n
 	^(.+day.+2026)\r\n
 Replace pattern:
-	\1\r\nThings that MUST get done:\r\nONGOING Things to do:\r\nThings that SHOULD get done:\r\nThings I'd LIKE to get done:\r\nOTHER things to do:\r\n
+	\1\r\nTop Priorities\r\nThings that MUST get done:\r\nONGOING Things to do:\r\nThings that SHOULD get done:\r\nThings I'd LIKE to get done:\r\nOTHER things to do:\r\n
 
 
 
@@ -37,40 +37,29 @@ Sunday
 Search:
 	(Sunday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\n8 a.m.: Choir rehearsal\r\n8:30 a.m.: Worship @ St. John's\r\nChoir anthem:\r\n10:45 a.m.: Worship @ St. John's\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\n8 a.m.: Choir rehearsal\r\n8:30 a.m.: Worship @ St. John's\r\nChoir anthem:\r\n10:45 a.m.: Worship @ St. John's\r\nDuolingo\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 Saturday
-Search:
-	(Saturday.+\r\n)(.+\r\n)(.+\r\n)(.+\r\n)(.+LIKE to get done:\r\n)
-
-Replace:
-	\1\2\3\4\5Upload glucometer data\r\n
-
 
 Search:
 	(Saturday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nDuolingo\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 Friday
 Search:
 	(Friday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nSort papers\r\nDuolingo\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 
 Thursday
-SHOULD
-Search:
-	(Thursday.+\r\n)(.+\r\n)(.+\r\n)(.+SHOULD get done:\r\n)
-Replace:
-	\1\2\3\4Water indoor plants\r\n
 
 MUST
 Search:
 	(Thursday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nTake out trash & old items in refrigerator\r\nSort papers\r\nMake supper\r\nDuolingo\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 
 Wednesday
@@ -84,7 +73,7 @@ MUST
 Search:
 	(Wednesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\n7 p.m.: St. John's Choir rehearsal\r\nTake out trash & old items in refrigerator\r\nTake out recycling\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\n5:15 p.m.: Wednesday Night Supper\r\n6 p.m.:Wednesday Night Knitting\r\n7 p.m.: St. John's Choir rehearsal\r\n8:45 p.m.: Drinks at Fairfield Inn\r\nTake out recycling\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 
 
@@ -93,8 +82,8 @@ MUST
 Search:
 	(Tuesday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake grocery shopping list\r\nTake evening drugs\r\n
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nSort papers\r\nMake grocery shopping list\r\nGo grocery shopping\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nSort papers\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 
 Monday
@@ -109,7 +98,7 @@ MUST
 Search:
 	(Monday.+\r\n.+MUST get done:\r\n)
 Replace:
-	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nUnpack boxes\r\nSort papers\r\nMake supper\r\nTake evening drugs\r\n
+	\1I am stronger than anything that comes at me\r\nTake morning drugs\r\nSort papers\r\nMake supper\r\nGive Prozac to Tristan\r\nTake evening drugs\r\n
 
 
 
