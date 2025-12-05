@@ -80,10 +80,10 @@ Replace:
 Tuesday
 MUST
 Search:
-	(Tuesday.+\n.+MUST get done:\n)
+	(Tuesday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nMake grocery shopping list\nGo grocery shopping\nGive Prozac to Tristan\nTake evening drugs\n
-	\1I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nMake grocery shopping list\nGo grocery shopping\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 Monday
