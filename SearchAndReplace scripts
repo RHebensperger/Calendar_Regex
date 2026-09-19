@@ -46,6 +46,7 @@ Saturday
 
 Search:
 	(Saturday.+\n)(.+\n)(.+MUST get done:\n)
+	(Saturday.+\n)(.+\n\n)(.+MUST get done:\n)  (Use this if there is a blank line after Top Priorities:)
 Replace:
 	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
@@ -107,11 +108,11 @@ Replace:
 
 
 
-
+Leave a blank line below "Top Priorities:"
 Search:
-
+	Priorities:\n
 Replace:
-
+	Priorities:\n\n
 
 
 Search:
