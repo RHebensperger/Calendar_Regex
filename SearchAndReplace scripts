@@ -93,7 +93,7 @@ Replace:
 Monday
 SHOULD
 Search:
-	(Monday.+\n)(.+\n)(.+\n)(.+SHOULD get done:\n)
+	(Monday.+\n)(.+\n)(.+\n)(.+\n)(.+SHOULD get done:\n)
 Replace:
 	\1\2\3\4Water indoor plants\n
 	\1\2\3\4Water plants\n
