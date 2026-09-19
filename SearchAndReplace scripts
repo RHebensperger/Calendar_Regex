@@ -28,8 +28,8 @@ Inserting tasks into each day:
 
 First, insert the priority subheaders under each day.
 Search pattern:
-	^(.+day.+2026)\n
-	^(.+day.+2027)\n
+	^(.+day.+2026)\r
+	^(.+day.+2027)\r
 Replace pattern:
 	\1\nTop Priorities\nThings that MUST get done:\nONGOING Things to do:\nThings that SHOULD get done:\nThings I'd LIKE to get done:\nOTHER things to do:\n
 
@@ -40,20 +40,20 @@ Sunday
 Search:
 	(Sunday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\n8 a.m.: Choir rehearsal\n8:30 a.m.: Worship @ St. John's\nChoir anthem:\n10:45 a.m.: Worship @ St. John's\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\n8 a.m.: Choir rehearsal\n8:30 a.m.: Worship @ St. John's\nChoir anthem:\n10:45 a.m.: Worship @ St. John's\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 Saturday
 
 Search:
 	(Saturday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 Friday
 Search:
 	(Friday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nSort papers\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 Thursday
@@ -62,7 +62,7 @@ MUST
 Search:
 	(Thursday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nTake out trash & old items in refrigerator\nSort papers\nMake supper\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nTake out trash & old items in refrigerator\nSort papers\nMake supper\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 Wednesday
@@ -76,7 +76,7 @@ MUST
 Search:
 	(Wednesday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\n5:15 p.m.: Wednesday Night Supper\n6 p.m.: Wednesday Night Knitting\n7 p.m.: St. John's Choir rehearsal\n8:45 p.m.: Drinks at Fairfield Inn\nTake out recycling\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\n5:15 p.m.: Wednesday Night Supper\n6 p.m.: Wednesday Night Knitting\n7 p.m.: St. John's Choir rehearsal\n8:45 p.m.: Drinks at Fairfield Inn\nTake out recycling\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 
@@ -85,8 +85,8 @@ MUST
 Search:
 	(Tuesday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nMake grocery shopping list\nGo grocery shopping\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nSort papers\nMake grocery shopping list\nGo grocery shopping\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nSort papers\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 Monday
@@ -101,7 +101,7 @@ MUST
 Search:
 	(Monday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nTake morning drugs\nSort papers\nMake supper\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\nSort papers\nMake supper\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 
 
