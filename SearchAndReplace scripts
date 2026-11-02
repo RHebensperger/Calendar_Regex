@@ -30,6 +30,7 @@ First, insert the priority subheaders under each day.
 Search pattern:
 	^(.+day.+2026)\r
 	^(.+day.+2027)\r
+
 Replace pattern:
 	\1\nTop Priorities\nThings that MUST get done:\nONGOING Things to do:\nThings that SHOULD get done:\nThings I'd LIKE to get done:\nOTHER things to do:\n
 
@@ -40,7 +41,7 @@ Sunday
 Search:
 	(Sunday.+\n)(.+\n)(.+MUST get done:\n)
 Replace:
-	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\n8 a.m.: Choir rehearsal\n8:30 a.m.: Worship @ St. John's\nChoir anthem:\n10:45 a.m.: Worship @ St. John's\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
+	\1\2\3I am stronger than anything that comes at me\nHow bad do you want to be a voice artist?\nTake morning drugs\n8 a.m.: Choir rehearsal\n8:30 a.m.: Worship @ St. John's\nChoir anthem:\n9:45 a.m.: Forum\n10:45 a.m.: Worship @ St. John's\nDuolingo\nGive Prozac to Tristan\nTake evening drugs\n
 
 Saturday
 
