@@ -32,7 +32,7 @@ Search pattern:
 	^(.+day.+2027)\r
 
 Replace pattern:
-	\1\nTop Priorities\nThings that MUST get done:\nONGOING Things to do:\nThings that SHOULD get done:\nThings I'd LIKE to get done:\nOTHER things to do:\n
+	\1\nTop Priorities:\nThings that MUST get done:\nONGOING Things to do:\nThings that SHOULD get done:\nThings I'd LIKE to get done:\nOTHER things to do:\n
 
 
 
